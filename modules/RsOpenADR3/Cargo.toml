@@ -1,0 +1,12 @@
+[package]
+name = "RsOpenADR3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+everestrs = { workspace = true, features = ["build_bazel"] }
+openadr-rs = { git = "https://github.com/tweedegolf/openadr-rs/", branch = "main" }
+
+
+[build-dependencies]
+everestrs-build = { workspace = true }

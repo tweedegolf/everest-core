@@ -8,7 +8,7 @@ everestrs-build = { workspace=true }
 
 [dependencies]
 anyhow = "1.0.75"
-chrono = "0.4.31"
+chrono = "0.4.38"
 everestrs = { workspace=true }
 log = "0.4.20"
 rand = "0.8.5"
